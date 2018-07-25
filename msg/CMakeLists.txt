@@ -80,6 +80,7 @@ set(msg_files
 	optical_flow.msg
 	parameter_update.msg
 	ping.msg
+	position_controller_status.msg
 	position_setpoint.msg
 	position_setpoint_triplet.msg
 	power_button_state.msg
@@ -120,6 +121,7 @@ set(msg_files
 	vehicle_attitude_setpoint.msg
 	vehicle_command.msg
 	vehicle_command_ack.msg
+	vehicle_constraints.msg
 	vehicle_control_mode.msg
 	vehicle_global_position.msg
 	vehicle_gps_position.msg
@@ -134,7 +136,6 @@ set(msg_files
 	vehicle_trajectory_waypoint.msg
 	vtol_vehicle_status.msg
 	wind_estimate.msg
-	vehicle_constraints.msg
 	)
 
 if(NOT EXTERNAL_MODULES_LOCATION STREQUAL "")
