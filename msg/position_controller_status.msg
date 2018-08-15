@@ -1,3 +1,4 @@
+uint64 timestamp				# time since system start (microseconds)
 
 float32 acceptance_radius		# the optimal distance to a waypoint to switch to the next
 
